@@ -15,7 +15,13 @@ class ItemPage extends StatelessWidget {
       ),
       body: Container(
         alignment: Alignment.center,
-        child: Text(tempItem.name + " ; " + tempItem.price.toString()),
+        child: Text(tempItem.name +
+            " : " +
+            tempItem.price.toString() +
+            " : " +
+            tempItem.jmlhBarang.toString() +
+            " : " +
+            tempItem.expired),
       ),
     );
   }

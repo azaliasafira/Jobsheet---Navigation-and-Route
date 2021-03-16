@@ -5,8 +5,10 @@ import 'package:flutter/widgets.dart';
 
 class HomePage extends StatelessWidget {
   final List<Item> items = [
-    Item(name: 'Sugar', price: 5000),
-    Item(name: 'Salt', price: 2000)
+    Item(name: 'Sugar', price: 5000, jmlhBarang: 5, expired: "25/2/2021"),
+    Item(name: 'Salt', price: 2000, jmlhBarang: 8, expired: "15/2/2021"),
+    Item(name: 'Butter', price: 6000, jmlhBarang: 8, expired: "10/4/2021"),
+    Item(name: 'Oil', price: 25000, jmlhBarang: 10, expired: "21/2/2021")
   ];
 
   @override
